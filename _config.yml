@@ -1,4 +1,8 @@
 title: Satvik # your name (or website title) here
 description: Aspriring Data Scientist right out of grad school after completing my master's in Computer Science at University of Illinois Urbana-Champaing
 theme: jekyll-theme-minimal
+social:
+  - name: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/satvik-pandey-993775167/
 google_analytics: G-FS510NNPX1 # your Google Analytics tracking ID here
