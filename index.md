@@ -14,6 +14,29 @@
 
 **Advanced Analytics:** Predictive Modeling, Recommender Systems, Time Series Analysis, Natural Language Processing, Text Mining, Feature Engineering
 
+## Projects
+### Enhanced Ship Detection through Deep-Learning-Based Super-Resolution Embedding
+
+**Description:**
+This project focuses on improving ship detection in satellite and aerial imagery through the use of deep learning-based super-resolution techniques. The approach integrates the Enhanced Super-Resolution Generative Adversarial Network (ESRGAN) to enhance image quality, allowing for finer detection of smaller ships. Following the super-resolution process, YOLOv5 is used for ship identification, ensuring high accuracy and real-time processing, crucial for maritime applications like safety and traffic management.
+
+- **Challenges Solved**:
+    - Enhanced image quality for small object detection.
+    - Improved real-time detection with the use of YOLOv5.
+    - Applied attention mechanisms for accurate ship detection in cluttered maritime environments.
+
+**Results:**
+
+![Super-Resolution Image Before and After](path-to-your-first-image)
+![YOLOv5 Detection Results](path-to-your-second-image)
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-blue?logo=python), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-orange?logo=tensorflow), ![YOLOv5](https://img.shields.io/badge/-YOLOv5-yellow?logo=yolo), ![ESRGAN](https://img.shields.io/badge/-ESRGAN-green)
+
+**GitHub Repository:** [Link to Project Repo](https://github.com/your-repo-link)
+
+
 
 
 
