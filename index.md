@@ -27,14 +27,14 @@ This project focuses on improving ship detection in satellite and aerial imagery
 
 **Results:**
 
-![Super-Resolution Image Before and After](path-to-your-first-image)
-![YOLOv5 Detection Results](path-to-your-second-image)
+![Super-Resolution Image Before and After](images/side_by_side.jpg)
+![YOLOv5 Detection Results](images/final_bb.jpg)
 
 **Skills Used:**
 
-![Python](https://img.shields.io/badge/-Python-blue?logo=python), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-orange?logo=tensorflow), ![YOLOv5](https://img.shields.io/badge/-YOLOv5-yellow?logo=yolo), ![ESRGAN](https://img.shields.io/badge/-ESRGAN-green)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![YOLOv5](https://img.shields.io/badge/-YOLOv5-yellow?logo=yolo), ![ESRGAN](https://img.shields.io/badge/-ESRGAN-green)
 
-**GitHub Repository:** [Link to Project Repo](https://github.com/your-repo-link)
+**GitHub Repository:** [Link to Project Repo](https://github.com/satvikp221b/Ship-Detection-Super-Res)
 
 
 
