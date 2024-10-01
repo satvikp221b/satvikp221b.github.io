@@ -34,7 +34,8 @@ This project focuses on improving ship detection in satellite and aerial imagery
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![YOLOv5](https://img.shields.io/badge/-YOLOv5-yellow?logo=yolo), ![ESRGAN](https://img.shields.io/badge/-ESRGAN-green)
 
-**GitHub Repository:** [Link to Project Repo](https://github.com/satvikp221b/Ship-Detection-Super-Res)
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Ship-Detection-Super-Res" target="_blank">Link to Project Repo</a>
+
 
 
 
