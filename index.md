@@ -36,7 +36,7 @@ This project focuses on improving ship detection in satellite and aerial imagery
 
 **GitHub Repository:** <a href="https://github.com/satvikp221b/Ship-Detection-Super-Res" target="_blank">Link to Project Repo</a>
 
-## Project 2: Sarcasm Detection
+### Sarcasm Detection
 
 **Description:**
 This project aims to detect sarcasm in text using a combination of deep learning models, including Logistic Regression, LSTM, and BERT. The project features a web application where users can input text and receive sarcasm predictions. In addition to textual analysis, the model incorporates several additional features, such as the words count, punctuation marks, and sentiment analysis using TextBlob.
