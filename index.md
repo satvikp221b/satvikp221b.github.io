@@ -22,7 +22,7 @@ This project focuses on improving ship detection in satellite and aerial imagery
 
 - **Challenges Solved**:
     - Enhanced image quality for small object detection.
-    - Improved real-time detection with the use of YOLOv5.
+    - Improved detection with the use of YOLOv5.
     - Applied attention mechanisms for accurate ship detection in cluttered maritime environments.
 
 **Results:**
@@ -35,6 +35,34 @@ This project focuses on improving ship detection in satellite and aerial imagery
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![YOLOv5](https://img.shields.io/badge/-YOLOv5-yellow?logo=yolo), ![ESRGAN](https://img.shields.io/badge/-ESRGAN-green)
 
 **GitHub Repository:** <a href="https://github.com/satvikp221b/Ship-Detection-Super-Res" target="_blank">Link to Project Repo</a>
+
+## Project 2: Sarcasm Detection
+
+**Description:**
+This project aims to detect sarcasm in text using a combination of deep learning models, including Logistic Regression, LSTM, and BERT. The project features a web application where users can input text and receive sarcasm predictions. In addition to textual analysis, the model incorporates several additional features, such as the words count, punctuation marks, and sentiment analysis using TextBlob.
+
+- **Challenges Solved**:
+    - Accurate sarcasm detection using modern deep learning techniques.
+    - Use of additional features like polarity, punctuation marks, capitalization of words, tonal shift.
+    - Built a Flask-based web application for sarcasm prediction for a smoother interface where model switching can be quick b/w Logistic Regression, LSTM, BERT and Lasso LR.
+
+
+**Results:**
+
+| Model Metrics | Web App Home Page |
+| -------------- | --------------- |
+| <img src="images/Metrics_df.png" width="300"/> | <img src="images/Default_home.png" width="300"/> |
+
+| Sarcasm Detected | No Sarcasm Detected |
+| ------------------- | ------------------- |
+| <img src="images/sarcasm.png" width="300"/> | <img src="images/non_sarcasm.png" width="300"/> |
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![Flask](https://img.shields.io/badge/-Flask-black?logo=flask), ![BERT](https://img.shields.io/badge/-BERT-yellow?logo=bert), ![TextBlob](https://img.shields.io/badge/-TextBlob-lightgrey?logo=python&logoColor=green), ![VADER](https://img.shields.io/badge/-VADER-darkgreen?logo=vader&logoColor=white)
+
+**GitHub Repository:** [Link to Project Repo](https://github.com/satvikp221b/Sarcasm-Detector-NLP)
+
 
 
 
