@@ -20,10 +20,10 @@
 **Description:**
 This project focuses on improving ship detection in satellite and aerial imagery through the use of deep learning-based super-resolution techniques. The approach integrates the Enhanced Super-Resolution Generative Adversarial Network (ESRGAN) to enhance image quality, allowing for finer detection of smaller ships. Following the super-resolution process, YOLOv5 is used for ship identification, ensuring high accuracy and real-time processing, crucial for maritime applications like safety and traffic management.
 
-- **Challenges Solved**:
-    - Enhanced image quality for small object detection.
-    - Improved detection with the use of YOLOv5.
-    - Applied attention mechanisms for accurate ship detection in cluttered maritime environments.
+**Challenges Solved**:
+- Enhanced image quality for small object detection.
+- Improved detection with the use of YOLOv5.
+- Applied attention mechanisms for accurate ship detection in cluttered maritime environments.
 
 **Results:**
 
@@ -41,10 +41,10 @@ This project focuses on improving ship detection in satellite and aerial imagery
 **Description:**
 This project aims to detect sarcasm in text using a combination of deep learning models, including Logistic Regression, LSTM, and BERT. The project features a web application where users can input text and receive sarcasm predictions. In addition to textual analysis, the model incorporates several additional features, such as the words count, punctuation marks, and sentiment analysis using TextBlob.
 
-- **Challenges Solved**:
-    - Accurate sarcasm detection using modern deep learning techniques.
-    - Use of additional features like polarity, punctuation marks, capitalization of words, tonal shift.
-    - Built a Flask-based web application for sarcasm prediction for a smoother interface where model switching can be quick b/w Logistic Regression, LSTM, BERT and Lasso LR.
+**Challenges Solved**:
+- Accurate sarcasm detection using modern deep learning techniques.
+- Use of additional features like polarity, punctuation marks, capitalization of words, tonal shift.
+- Built a Flask-based web application for sarcasm prediction for a smoother interface where model switching can be quick b/w Logistic Regression, LSTM, BERT and Lasso LR.
 
 
 **Results:**
