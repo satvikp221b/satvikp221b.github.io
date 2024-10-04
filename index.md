@@ -63,6 +63,30 @@ This project aims to detect sarcasm in text using a combination of deep learning
 
 **GitHub Repository:** [Link to Project Repo](https://github.com/satvikp221b/Sarcasm-Detector-NLP)
 
+### Heartbeat Detection from Video
+
+**Description:**
+This project focuses on detecting heart rate from video using advanced computer vision techniques and signal processing. Initially developed during the last semesters of college, the project has been enhanced with recent improvements like Auto Correlation, MTCNN face detection, and averaging frames for better heart rate calculation. The method is based on Photoplethysmography (PPG), which captures subtle changes in skin color corresponding to the cardiac cycle. The project includes Eulerian Video Magnification (EVM) to amplify these subtle changes, making it possible to calculate heart rate accurately from video input.
+
+**Challenges Solved**:
+- Achieved non-contact heart rate detection with an error margin of ±5 bpm under ideal conditions.
+- Enhanced face detection by incorporating MTCNN, improving the reliability of ROI segmentation.
+- Replaced FFT with Auto Correlation for more stable heart rate signal detection.
+
+**Results:**
+
+| Processed Video | Heart Rate Overlay |
+| --------------- | ------------------ |
+| ![Processed Video](images/output_magnified_roi_noeyes-gif.gif) | ![Heart Rate](images/output_with_hr-gif.gif) |
+
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white), ![MTCNN](https://img.shields.io/badge/-MTCNN-red) 
+
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Heartbeat-Detection-Using-Video" target="_blank">Link to Project Repo</a>
+
+
 
 
 
