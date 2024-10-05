@@ -86,7 +86,7 @@ This project focuses on detecting heart rate from video using advanced computer 
 
 **GitHub Repository:** <a href="https://github.com/satvikp221b/Heartbeat-Detection-Using-Video" target="_blank">Link to Project Repo</a>
 
-## Computer Interactive Graphics Projects
+### Computer Interactive Graphics Projects
 
 This collection showcases my work in the **Computer Interactive Graphics course** at the **University of Illinois Urbana-Champaign (UIUC)**. These projects cover various aspects of computer graphics, such as animation, terrain generation, camera controls, physics-based simulations, and ray tracing. Each project explores different techniques and tools for creating dynamic and interactive graphics.
 
