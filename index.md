@@ -61,7 +61,7 @@ This project aims to detect sarcasm in text using a combination of deep learning
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![Flask](https://img.shields.io/badge/-Flask-black?logo=flask), ![BERT](https://img.shields.io/badge/-BERT-yellow?logo=bert), ![TextBlob](https://img.shields.io/badge/-TextBlob-lightgrey?logo=python&logoColor=green), ![VADER](https://img.shields.io/badge/-VADER-darkgreen?logo=vader&logoColor=white)
 
-**GitHub Repository:** [Link to Project Repo](https://github.com/satvikp221b/Sarcasm-Detector-NLP)
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Sarcasm-Detector-NLP" target="_blank">Link to Project Repo</a>
 
 ### Heartbeat Detection from Video
 
@@ -85,6 +85,14 @@ This project focuses on detecting heart rate from video using advanced computer 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white), ![MTCNN](https://img.shields.io/badge/-MTCNN-red) 
 
 **GitHub Repository:** <a href="https://github.com/satvikp221b/Heartbeat-Detection-Using-Video" target="_blank">Link to Project Repo</a>
+
+## Computer Interactive Graphics Projects
+
+This collection showcases my work in the **Computer Interactive Graphics course** at the **University of Illinois Urbana-Champaign (UIUC)**. These projects cover various aspects of computer graphics, such as animation, terrain generation, camera controls, physics-based simulations, and ray tracing. Each project explores different techniques and tools for creating dynamic and interactive graphics.
+
+Skills: ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white), ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black), ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![WebGL](https://img.shields.io/badge/-WebGL-990000?logo=webgl&logoColor=white), ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?logo=opengl&logoColor=white)
+
+For more details on each project, [Click here to view the full project descriptions and demos](project/Interactive_graphics.md).
 
 
 
