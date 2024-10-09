@@ -88,12 +88,40 @@ This project focuses on detecting heart rate from video using advanced computer 
 
 ### Computer Interactive Graphics Projects
 
+**Description:**
 This collection showcases my work in the **Computer Interactive Graphics course** at the **University of Illinois Urbana-Champaign (UIUC)**. These projects cover various aspects of computer graphics, such as animation, terrain generation, camera controls, physics-based simulations, and ray tracing. Each project explores different techniques and tools for creating dynamic and interactive graphics.
 
-Skills: ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white), ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black), ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![WebGL](https://img.shields.io/badge/-WebGL-990000?logo=webgl&logoColor=white), ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?logo=opengl&logoColor=white)
+**Skills Used:**
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white), ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black), ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![WebGL](https://img.shields.io/badge/-WebGL-990000?logo=webgl&logoColor=white), ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?logo=opengl&logoColor=white)
 
 For more details on each project, [Click here to view the full project descriptions and demos](project/Interactive_graphics.md).
 
+
+### Diabetic Retinopathy Detection Using Deep Learning
+
+**Description:**
+This project focuses on detecting Diabetic Retinopathy (DR) using deep learning techniques applied to retinal fundus images. The approach begins with extensive image preprocessing, followed by the development of three models for DR classification:
+- **Model 1 (Custom CNN - EyeNet):** A custom CNN built from scratch, though it achieved moderate accuracy, it was eventually replaced by pre-trained models.
+- **Model 2 (Pre-trained CNNs):** Utilized several pre-trained models like AlexNet, VGGNet, ResNet, and GoogleNet. These models were fine-tuned and hyperparameters were adjusted to improve performance but encountered overfitting issues.
+- **Model 3 (Ensemble):** The final solution, an ensemble of ResNet50, InceptionV3, Xception, DenseNet121, and DenseNet169, provided the best results, balancing accuracy and recall across all DR severity stages.
+
+The project is integrated into a Flask-based web application, allowing users to upload retinal images and receive real-time predictions on the severity of DR, making it accessible for early diagnosis in resource-constrained environments.
+
+**Challenges Solved**:
+- Class imbalance in the dataset was handled through data augmentation.
+- Overcame overfitting in deep learning models by using an ensemble approach.
+- Achieved high accuracy for classifying DR severity into five distinct stages, allowing for early detection and intervention.
+
+**Results:**
+
+![Website Upload](images/Website-1.png)
+![Wesite Results](images/Website-Chart.png)
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white), ![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras), ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv), ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white)
+
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Diabetic-Retinopathy-Deep-Learning" target="_blank">Link to Project Repo</a>
 
 
 
