@@ -137,8 +137,14 @@ This project focuses on building a sophisticated movie recommendation system usi
 
 **Results:**
 
-![Simple Recommender Output](images/simple_recommender.jpg)
-![Hybrid Recommender Output](images/hybrid_recommender.jpg)
+| Simple Recommender | Content-Based (Overview & Tagline) |
+| ------------------ | --------------------------------- |
+| ![Simple Recommender](images/Simple_Recommender.png) | ![Content-Based Overview](images/Content_Based.png) |
+
+| Content-Based (Crew & Cast(Most -weightage)) | Hybrid Recommender |
+| --------------------- | ------------------ |
+| ![Boltzmann Recommender](images/Cast_Crew_Recommender.png) | ![Hybrid Recommender](images/Boltzmann_Recommender.png) |
+
 
 **Skills Used:**
 
