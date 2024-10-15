@@ -150,7 +150,7 @@ This project focuses on building a sophisticated movie recommendation system usi
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white), ![NLP](https://img.shields.io/badge/-NLP-yellowgreen), ![NLTK](https://img.shields.io/badge/-NLTK-39b54a?logo=nltk&logoColor=white), ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white), ![Word2Vec](https://img.shields.io/badge/-Word2Vec-0099CC?logo=gmail&logoColor=white), ![TMDB API](https://img.shields.io/badge/-TMDB%20API-brightgreen), ![Boltzmann Machine](https://img.shields.io/badge/-Boltzmann%20Machine-blue)
 
-**GitHub Repository:** <a href="https://github.com/satvikp221b/Movie-Recommendation-System" target="_blank">Link to Project Repo</a>
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Movie-Recommender-System" target="_blank">Link to Project Repo</a>
 
 
 
