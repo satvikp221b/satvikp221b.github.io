@@ -125,6 +125,27 @@ The project is integrated into a Flask-based web application, allowing users to 
 
 ### Recommender Systems - MovieLens Dataset
 
+**Description:**
+This project focuses on building a sophisticated movie recommendation system using a combination of content-based and collaborative filtering techniques. The system integrates multiple recommenders, including a simple recommender based on popularity, content-based recommenders using movie metadata (such as overview, cast, crew, and keywords), and collaborative filtering using a Boltzmann machine. A hybrid model is also implemented, which combines both user preferences (ratings) and movie features for more accurate and personalized recommendations. The data is sourced from the MovieLens dataset and enhanced using TMDB's API to include the latest movies and metadata.
+
+**Challenges Solved**:
+- **Handling Sparsity in User Ratings:** Addressed the challenge of sparse data in collaborative filtering by combining it with content-based recommendations, ensuring better recommendations even for users with limited interactions.
+- **Weighting Multiple Features:** Tuned the weighting of cast, crew, genre, and keywords to allow personalized emphasis on certain features for content-based filtering, improving recommendation relevance.
+- **Natural Language Understanding for Movie Descriptions:** Employed advanced NLP techniques such as TF-IDF, Latent Semantic Analysis (LSA), and Word2Vec to accurately recommend movies based on subtle similarities in overviews and taglines.
+- **Integration of User Preferences with Movie Metadata:** Developed a hybrid recommender that successfully combines user ratings with movie features, achieving better personalization by leveraging both user behavior and movie attributes.
+- **Scalability of Data Collection:** Created a system to dynamically collect movie data from the TMDB API, ensuring the system remains up-to-date with newly released movies.
+
+**Results:**
+
+![Simple Recommender Output](images/simple_recommender.jpg)
+![Hybrid Recommender Output](images/hybrid_recommender.jpg)
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white), ![NLP](https://img.shields.io/badge/-NLP-yellowgreen), ![NLTK](https://img.shields.io/badge/-NLTK-39b54a?logo=nltk&logoColor=white), ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white), ![Word2Vec](https://img.shields.io/badge/-Word2Vec-0099CC?logo=gmail&logoColor=white), ![TMDB API](https://img.shields.io/badge/-TMDB%20API-brightgreen), ![Boltzmann Machine](https://img.shields.io/badge/-Boltzmann%20Machine-blue)
+
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Movie-Recommendation-System" target="_blank">Link to Project Repo</a>
+
 
 
 
