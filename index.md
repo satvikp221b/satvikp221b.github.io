@@ -152,7 +152,49 @@ This project focuses on building a sophisticated movie recommendation system usi
 
 **GitHub Repository:** <a href="https://github.com/satvikp221b/Movie-Recommender-System" target="_blank">Link to Project Repo</a>
 
+### Stock Portfolio Dashboard
 
+**Description:**
+This project provides a comprehensive **Stock Portfolio Dashboard** that allows users to track, analyze, and visualize their stock investments in an interactive way. The project consists of two key components:
+1. **Portfolio Builder**: A tool that enables users to input and save their stock data, such as the number of shares, buy price, and stock ticker, into a CSV file.
+2. **Financial Dashboard**: This dashboard reads the saved portfolio CSV file and provides detailed financial metrics and visualizations. The dashboard computes performance metrics for individual stocks and the overall portfolio, offering insights into the health and performance of the investments.
+
+The dashboard features financial metrics like **Price-to-Earnings Ratio (P/E)**, **Price-to-Book Ratio (P/B)**, **Dividend Yield**, **Return on Equity (ROE)**, and **Analyst Recommendations**. Additionally, it provides **technical analysis** tools like **Simple Moving Averages (SMA)**, **Volume-Weighted Moving Averages (VWMA)**, **Exponential Moving Averages (EMA)**, and **Bollinger Bands**.
+
+**Challenges Solved**:
+- **Comprehensive Portfolio Management**: The project consolidates multiple stock transactions into a single portfolio, calculating aggregated metrics like total shares and average buy prices, even when multiple purchases of the same stock occur at different times and prices.
+  
+- **Advanced Financial Metrics**: Providing accurate financial metrics such as **Sharpe Ratio**, **Jensen's Alpha**, **Beta**, and **Treynor Ratio** gives users deeper insights into portfolio performance. These advanced metrics help investors assess risk-adjusted returns and portfolio volatility relative to market movements.
+
+- **Real-Time Financial Data Integration**: Using the `yfinance` API, the dashboard fetches live financial data for each stock in the portfolio, ensuring up-to-date calculations for metrics like **P/E Ratio**, **P/B Ratio**, and **Dividend Yield**.
+
+- **Visualization of Technical Analysis**: The dashboard provides users with detailed technical analysis charts, including overlays for **SMA**, **VWMA**, **EMA**, **Bollinger Bands**, and Fibonacci retracement levels. These tools assist in identifying potential entry and exit points in the market by visually representing support and resistance levels.
+  
+- **Golden Cross/Death Cross Detection**: Implementing a feature to detect **Golden Cross** and **Death Cross** signals—key indicators used by traders to spot long-term buy or sell opportunities based on moving averages.
+
+- **Portfolio Health and Performance Overview**: The dashboard gives users a holistic view of their portfolio with metrics such as **Total Investment**, **Current Portfolio Value**, **Profit/Loss (absolute and percentage)**, and **Daily Profit/Loss**. This helps users make informed decisions about holding, buying, or selling stocks based on real-time performance.
+  
+- **User-Friendly Interface and Automation**: The portfolio builder is designed to be user-friendly, allowing users to easily input stock data and automatically handle multiple stock purchases. It aggregates data efficiently and saves it as a CSV for future use, ensuring smooth integration with the financial dashboard.
+
+**Results:**
+
+| Portfolio Builder  | Portfolio Stats  |
+| ------------------ | ------------- |
+| ![Portfolio Builder](images/Portfolio_Builder.jpg) | ![Stock Analysis](images/Portfolio_Stats.png) |
+
+| Stock-wise Stats   | Stock Graph Examples  |
+| ------------------ | ------------- |
+| ![Portfolio Overview](images/Stockwise_Stats.png) | ![Stock Analysis](images/Stock_Graph_1.png) |
+
+| Volume and Bollinger   | Candlestick  |
+| ------------------ | ------------- |
+| ![Portfolio Overview](images/Stock_Graph_2.png) | ![Stock Analysis](images/Stock_Graph_3.png) |
+
+**Skills Used:**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white), ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white), ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly&logoColor=white), ![Dash](https://img.shields.io/badge/-Dash-000000?logo=dash&logoColor=white), ![yfinance](https://img.shields.io/badge/-yfinance-green?logo=yahoo&logoColor=purple)
+
+**GitHub Repository:** <a href="https://github.com/satvikp221b/Stocks-Portfolio" target="_blank">Link to Project Repo</a>
 
 
 
