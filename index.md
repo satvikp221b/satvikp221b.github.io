@@ -155,24 +155,24 @@ This project focuses on building a sophisticated movie recommendation system usi
 ### Stock Portfolio Dashboard
 
 **Description:**
-This project provides a comprehensive **Stock Portfolio Dashboard** that helps users track, analyze, and visualize stock investments. It consists of two parts:
+This project provides a comprehensive Stock Portfolio Dashboard that helps users track, analyze, and visualize stock investments. It consists of two parts:
 1. **Portfolio Builder**: Users input stock data such as shares, buy price, and ticker, saving it into a CSV file.
 2. **Financial Dashboard**: Reads the portfolio CSV and provides financial metrics and visualizations for individual stocks and the entire portfolio.
 
-The dashboard offers key metrics like **P/E Ratio**, **P/B Ratio**, **Dividend Yield**, **ROE**, and **Analyst Recommendations**, along with **technical analysis** tools like **SMA**, **VWMA**, **EMA**, and **Bollinger Bands**.
+The dashboard offers key metrics like **P/E Ratio**, **P/B Ratio**, **Dividend Yield**, **ROE**, and **Analyst Recommendations**, along with technical analysis tools like **SMA**, **VWMA**, **EMA**, and **Bollinger Bands**.
 
 **Challenges Solved**:
 - **Portfolio Management**: Consolidates multiple stock transactions into one portfolio, calculating total shares and average buy price.
   
-- **Advanced Metrics**: Provides **Sharpe Ratio**, **Jensen's Alpha**, **Beta**, and **Treynor Ratio** for risk-adjusted performance evaluation.
+- **Advanced Metrics**: Provides Sharpe Ratio, Jensen's Alpha, Beta, and Treynor Ratio for risk-adjusted performance evaluation.
 
-- **Real-Time Data**: Fetches live financial data using `yfinance`, ensuring up-to-date metrics like **P/E**, **P/B**, and **Dividend Yield**.
+- **Real-Time Data**: Fetches live financial data using `yfinance`, ensuring up-to-date metrics like P/E, P/B, Return on Equity, and Dividend Yield.
 
-- **Technical Analysis Visualization**: Offers charts with **SMA**, **VWMA**, **EMA**, **Bollinger Bands**, and Fibonacci levels for market trend analysis.
+- **Technical Analysis Visualization**: Offers charts with SMA, VWMA, EMA, Bollinger Bands, and Fibonacci levels for market trend analysis.
 
-- **Golden/Death Cross Detection**: Detects **Golden Cross** and **Death Cross** signals for identifying long-term buy/sell opportunities.
+- **Golden/Death Cross Detection**: Detects Golden Cross and Death Cross signals for identifying long-term buy/sell opportunities.
 
-- **Portfolio Overview**: Provides a summary of **Total Investment**, **Current Value**, **Profit/Loss**, and **Daily Profit/Loss**, aiding in decision-making.
+- **Portfolio Overview**: Provides a summary of Total Investment, Current Value, Profit/Loss, and Daily Profit/Loss, aiding in decision-making.
 
 - **User-Friendly Automation**: The portfolio builder allows easy stock data input, handling multiple purchases, and saving data efficiently for dashboard integration.
 
