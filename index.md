@@ -155,26 +155,27 @@ This project focuses on building a sophisticated movie recommendation system usi
 ### Stock Portfolio Dashboard
 
 **Description:**
-This project provides a comprehensive **Stock Portfolio Dashboard** that allows users to track, analyze, and visualize their stock investments in an interactive way. The project consists of two key components:
-1. **Portfolio Builder**: A tool that enables users to input and save their stock data, such as the number of shares, buy price, and stock ticker, into a CSV file.
-2. **Financial Dashboard**: This dashboard reads the saved portfolio CSV file and provides detailed financial metrics and visualizations. The dashboard computes performance metrics for individual stocks and the overall portfolio, offering insights into the health and performance of the investments.
+This project provides a comprehensive **Stock Portfolio Dashboard** that helps users track, analyze, and visualize stock investments. It consists of two parts:
+1. **Portfolio Builder**: Users input stock data such as shares, buy price, and ticker, saving it into a CSV file.
+2. **Financial Dashboard**: Reads the portfolio CSV and provides financial metrics and visualizations for individual stocks and the entire portfolio.
 
-The dashboard features financial metrics like **Price-to-Earnings Ratio (P/E)**, **Price-to-Book Ratio (P/B)**, **Dividend Yield**, **Return on Equity (ROE)**, and **Analyst Recommendations**. Additionally, it provides **technical analysis** tools like **Simple Moving Averages (SMA)**, **Volume-Weighted Moving Averages (VWMA)**, **Exponential Moving Averages (EMA)**, and **Bollinger Bands**.
+The dashboard offers key metrics like **P/E Ratio**, **P/B Ratio**, **Dividend Yield**, **ROE**, and **Analyst Recommendations**, along with **technical analysis** tools like **SMA**, **VWMA**, **EMA**, and **Bollinger Bands**.
 
 **Challenges Solved**:
-- **Comprehensive Portfolio Management**: The project consolidates multiple stock transactions into a single portfolio, calculating aggregated metrics like total shares and average buy prices, even when multiple purchases of the same stock occur at different times and prices.
+- **Portfolio Management**: Consolidates multiple stock transactions into one portfolio, calculating total shares and average buy price.
   
-- **Advanced Financial Metrics**: Providing accurate financial metrics such as **Sharpe Ratio**, **Jensen's Alpha**, **Beta**, and **Treynor Ratio** gives users deeper insights into portfolio performance. These advanced metrics help investors assess risk-adjusted returns and portfolio volatility relative to market movements.
+- **Advanced Metrics**: Provides **Sharpe Ratio**, **Jensen's Alpha**, **Beta**, and **Treynor Ratio** for risk-adjusted performance evaluation.
 
-- **Real-Time Financial Data Integration**: Using the `yfinance` API, the dashboard fetches live financial data for each stock in the portfolio, ensuring up-to-date calculations for metrics like **P/E Ratio**, **P/B Ratio**, and **Dividend Yield**.
+- **Real-Time Data**: Fetches live financial data using `yfinance`, ensuring up-to-date metrics like **P/E**, **P/B**, and **Dividend Yield**.
 
-- **Visualization of Technical Analysis**: The dashboard provides users with detailed technical analysis charts, including overlays for **SMA**, **VWMA**, **EMA**, **Bollinger Bands**, and Fibonacci retracement levels. These tools assist in identifying potential entry and exit points in the market by visually representing support and resistance levels.
-  
-- **Golden Cross/Death Cross Detection**: Implementing a feature to detect **Golden Cross** and **Death Cross** signals—key indicators used by traders to spot long-term buy or sell opportunities based on moving averages.
+- **Technical Analysis Visualization**: Offers charts with **SMA**, **VWMA**, **EMA**, **Bollinger Bands**, and Fibonacci levels for market trend analysis.
 
-- **Portfolio Health and Performance Overview**: The dashboard gives users a holistic view of their portfolio with metrics such as **Total Investment**, **Current Portfolio Value**, **Profit/Loss (absolute and percentage)**, and **Daily Profit/Loss**. This helps users make informed decisions about holding, buying, or selling stocks based on real-time performance.
-  
-- **User-Friendly Interface and Automation**: The portfolio builder is designed to be user-friendly, allowing users to easily input stock data and automatically handle multiple stock purchases. It aggregates data efficiently and saves it as a CSV for future use, ensuring smooth integration with the financial dashboard.
+- **Golden/Death Cross Detection**: Detects **Golden Cross** and **Death Cross** signals for identifying long-term buy/sell opportunities.
+
+- **Portfolio Overview**: Provides a summary of **Total Investment**, **Current Value**, **Profit/Loss**, and **Daily Profit/Loss**, aiding in decision-making.
+
+- **User-Friendly Automation**: The portfolio builder allows easy stock data input, handling multiple purchases, and saving data efficiently for dashboard integration.
+
 
 **Results:**
 
