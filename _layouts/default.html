@@ -68,6 +68,48 @@ header p a img {
 .resume-button:hover {
   background-color: #005bb5; 
 }
+  /* Scroll-to-Top Button */
+#scrollTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0073e6;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background-color: #005bb5;
+}
+
+/* Floating Contact Me Button */
+#contactBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+#contactBtn:hover {
+  background-color: #1e7e34;
+}
+
 /* Responsive adjustments for mobile screens */
 @media (max-width: 768px) {
   body {
@@ -125,6 +167,32 @@ header p a img {
     Download My Resume
   </a>
 </p>
+<!-- Scroll to Top Button -->
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+<!-- Floating Contact Me Button -->
+<a href="mailto:{{ site.email }}" id="contactBtn" title="Contact Me">Contact Me</a>
+
+<script>
+  // Scroll to top logic
+  function scrollToTop() {
+    document.querySelector('section').scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  // Show scroll-to-top button after scrolling down
+  window.addEventListener('scroll', function() {
+    const btn = document.getElementById('scrollTopBtn');
+    if (document.documentElement.scrollTop > 100 || document.body.scrollTop > 100) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+</script>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
