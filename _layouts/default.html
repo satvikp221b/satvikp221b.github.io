@@ -20,11 +20,11 @@ body {
 
 /* Sidebar */
 header {
-  width: 250px; /* or 300px if you want slightly bigger sidebar */
+  width: 320px; 
   flex-shrink: 0;
   padding: 20px;
   overflow-y: auto;
-  background-color: #f7f7f7; /* Light gray background to look like sidebar */
+  background-color: #f7f7f7;
   height: 100vh;
   box-sizing: border-box;
 }
@@ -32,11 +32,13 @@ header {
 /* Main Content */
 .wrapper {
   flex-grow: 1;
-  padding: 20px;
+  padding: 40px 60px;
   overflow-y: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Make links look clean */
+/* Link Styles */
 header p a {
   display: flex;
   align-items: center;
