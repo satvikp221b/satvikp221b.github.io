@@ -11,6 +11,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+  <style>
+/* Fix sidebar (header) overflow properly */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  flex: 0 1 auto;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+/* Section (main content) must scroll independently if page is long */
+section {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+</style>
+
   </head>
   <body>
     <div class="wrapper">
