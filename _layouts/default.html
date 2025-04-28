@@ -51,6 +51,24 @@ header p a img {
   height: 18px;
   margin-right: 8px;
 }
+  /* Button styling for Resume */
+.resume-button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #005bb5; 
+}
+
 </style>
 
 
@@ -85,8 +103,7 @@ header p a img {
 </p>
 
 <p>
-  <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="Resume Icon" style="width: 16px; height: 16px; margin-right: 8px;">
+  <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" class="resume-button">
     Download My Resume
   </a>
 </p>
