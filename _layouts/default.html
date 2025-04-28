@@ -11,27 +11,46 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-  <style>
-/* Fix sidebar (header) overflow properly */
-.wrapper {
+<style>
+body {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  margin: 0;
 }
 
+/* Sidebar */
 header {
-  flex: 0 1 auto;
+  width: 250px; /* or 300px if you want slightly bigger sidebar */
+  flex-shrink: 0;
+  padding: 20px;
   overflow-y: auto;
-  padding-bottom: 20px;
+  background-color: #f7f7f7; /* Light gray background to look like sidebar */
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-/* Section (main content) must scroll independently if page is long */
-section {
-  flex: 1 1 auto;
+/* Main Content */
+.wrapper {
+  flex-grow: 1;
+  padding: 20px;
   overflow-y: auto;
+}
+
+/* Make links look clean */
+header p a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+header p a img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
 }
 </style>
+
 
   </head>
   <body>
